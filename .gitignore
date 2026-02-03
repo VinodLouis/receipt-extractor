@@ -1,0 +1,79 @@
+# --------------------------------------------------
+# Build output
+# --------------------------------------------------
+dist/
+dist-ssr/
+build/
+
+# Node modules
+node_modules/
+
+# Temporary directories
+temp/
+.tmp/
+.temp/
+
+# Coverage / Test output
+coverage/
+.nyc_output/
+
+# --------------------------------------------------
+# Logs & diagnostic reports
+# --------------------------------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node diagnostic reports
+# https://nodejs.org/api/report.html
+report.*.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# --------------------------------------------------
+# Environment files (ignore everywhere)
+# --------------------------------------------------
+.env
+.env.local
+.env.*.local
+
+# --------------------------------------------------
+# OS files
+# --------------------------------------------------
+.DS_Store
+
+# --------------------------------------------------
+# IDEs & Editors
+# --------------------------------------------------
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode
+.vscode/
+!/.vscode/settings.json
+!/.vscode/tasks.json
+!/.vscode/launch.json
+!/.vscode/extensions.json
+
+# Editor temporary files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.local
+
+**/generated/**
